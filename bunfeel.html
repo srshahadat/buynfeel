@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Buynfeel</title>
+	<link rel="stylesheet" href="css/bunfeel.css">
+  <link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body style="background-color: lightgray;" class="container-fluid px-0 mx-0">
+<div class="container-fluid px-0 mx-0">
+    <header>
+      <div class="top-nav d-none d-lg-block">
+        <ul>
+          <li>
+            <h1 style="color: #FFC107;">
+              Hotline:-09642887766(9.00Am to 9.00Pm 
+            </h1>   
+          </li>
+          <li>
+            <div class="button1">
+              <a class="top-nav-btn">
+                All Seller
+              </a>
+              <a class="top-nav-btn">
+                Seller login
+              </a>
+              <a class="top-nav-btn">
+                Seller Register
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <nav style="background-color: white; margin-top: -17px;">
+        <ul class="top-ul">
+          <li>
+            <a href="buynfeel.html">
+              <a href="Register.html">
+                  <img class="brandImg" src="img/logo.png" alt="#">    
+              </a>
+            </a>
+          </li>
+          <li>
+            <div class="bar">
+              <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="  offcanvasExample"><i class="fas fa-bars"></i>
+              </a>  
+            </div>
+          </li>
+          <li>
+            <div class="input searchBar d-none d-md-block">
+              <div class="input-group me-3" style="height: 42px; width: 580px;">
+                <input type="text" class="form-control" placeholder="What are you looking for?" aria-label="What are you looking for?" aria-describedby="button-addon2">
+                <button class="btn btn-secondary" type="button" id="button-addon2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+                </button>
+              </div>
+              <!-- <input type="text" placeholder="What are you looking for?" style="height: 12px; width: 434px; padding: 15px 20px; font-family: inherit; font-size: 16px;"> -->
+            </div>
+          </li>
+          <li>
+            <div class="contact d-none d-md-block">
+              <p>BuynFeel Online Shop Bangladesh</p>
+                <button class="btn btn-primary">
+              <a href="login.html" style="color: #000;">
+              Sign In
+              </a>
+                </button>
+                <button class="btn btn-success">
+              <a href="Register.html" style="color:#000;">
+               Register
+              </a>
+                </button>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div>Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+            </div>
+            <div class="dropdown mt-3">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                Dropdown button
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row mb-3">
+            <div class="col-3 d-none d-lg-block">
+              <ul class="list-group">
+                    <li class="list-group-item customDropDown">
+                      <div class="dropDownBtn">Click Me</div>
+                      <ul class="hover-content list-group">
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item">A fourth item</li>
+                        <li class="list-group-item">And a fifth one</li>
+                        <li class="list-group-item">An item</li>
+                      </ul>
+                    </li>
+                  <li class="list-group-item customDropDown">
+                    <div class="dropDownBtn">MEN'S PRODUCT</div>
+                    <ul class="hover-content list-group">
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                    <li class="list-group-item">A fourth item</li>
+                    <li class="list-group-item">And a fifth one</li>
+                    <li class="list-group-item">An item</li>
+                  </li>
+                  <li>
+                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">A fourth item</li>
+                <li class="list-group-item">And a fifth one</li>
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">A fourth item</li>
+                  </li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-9">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                  </button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
+                  </button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
+                  </button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/58.jpg" class="d-block w-100" alt="#">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/60.jpg" class="d-block w-100" alt="#">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/61.jpg" class="d-block w-100" alt="#">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+</div>
+     
+  <div>
+            <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-3">
+          <div class="card" style="width: 18rem;">
+            <img src="img/61.gif" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem;">
+          <img src="img/60.gif" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem;">
+          <img src="img/51.gif" class="card-img-top" alt="...">
+          </div>
+        </div>
+       <div class="col-3">
+          <div class="card" style="width: 18rem;">
+            <img src="img/60.jpg" class="card-img-top" alt="..." height="141px;">
+          </div>
+        </div>
+      </div>
+            </div>
+    <div class="container">
+        <div class="row">
+              <div class="col-12">
+                  <h4 class="container" style="font-weight: 580; text-transform: uppercase;">
+                    <ins>Shop by cate</ins>goriy's
+                  </h4>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-4 col-6 p-0">
+                <div class="col-sm-12 col-12 collections bg-white p-2" style="min-height:200px; ">
+                  <center>
+                      <img src="img/1.png" class="img-fluid" style="max-height:120px;"><br>Mobile Phone<br>
+                      <span>240 Product's </span>
+                  </center>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-4 col-6 p-0">
+                <div class="col-sm-12 col-12 collections bg-white p-2" style="min-height:200px; ">
+                    <center>
+                      <img src="img/2.png" class="img-fluid" style="max-height:120px;"><br>Smart Watch<br>
+                      <span>78 Product's</span>   
+                    </center>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-4 col-6  collections bg-white p-2" style="min-height:200px; ">
+                <center>
+                  <img src="img/4.png" class="img-fluid" style="max-height:120px;"><br>Computer Accessories<br>
+                  <span>254 Product's</span>   
+                </center> 
+              </div>
+
+              <div class="col-lg-2 col-md-4 col-sm-4 col-6 p-0">
+                 <div class="col-sm-12 col-12 collections bg-white p-2" style="min-height:200px; ">
+                    <center>
+                      <img src="img/5.png" class="img-fluid" style="max-height:120px;"><br>Saree<br>
+                        <span>270 Product's</span>   
+                    </center>
+                  </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-4 col-6 p-0">
+                <div class="col-sm-12 col-12 collections bg-white p-2" style="min-height:200px; ">
+                  <center>
+                    <img src="img/6.png" class="img-fluid" style="max-height:120px;">
+                    <br>Jewelry<br>
+                    <span>423 Product's</span>   
+                  </center>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-4 col-6 p-0">
+                <div class="col-sm-12 col-12 collections bg-white p-2" style="min-height:200px; ">
+                  <center>
+                    <img src="img/3.png" class="img-fluid" style="max-height:120px;"><br>Health & Beauty<br>
+                    <span>597 Product's</span>   
+                  </center>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-4 col-6 p-0">
+                <div class="col-sm-12 col-12 collections bg-white p-2" style="min-height:200px; ">
+                  <center>
+                      <img src="img/7.png" class="img-fluid" style="max-height:120px;"><br>
+                        Accessories<br>
+                     <span>18 Product's</span>   
+                  </center>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-4 col-6 p-0">
+                <div class="col-sm-12 col-12 collections bg-white p-2" style="min-height:200px; ">
+                  <center>
+                    <img src="img/8.png" class="img-fluid" style="max-height:120px;"><br>
+                        Watches<br>
+                    <span>60 Product's</span>   
+                  </center>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-4 col-6 p-0">
+                <div class="col-sm-12 col-12 collections bg-white p-2" style="min-height:200px; ">
+                  <center>
+                    <img src="img/9.png" class="img-fluid" style="max-height:120px;"><br>Sunglass<br>
+                    <span>254 Product's</span>   
+                  </center>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-4 col-6 p-0">
+                <div class="col-sm-12 col-12 collections bg-white p-2" style="min-height:200px; ">
+                  <center>
+                    <img src="img/10.png" class="img-fluid" style="max-height:120px;"><br>Mobile Accessories<br>
+                    <span>146 Product's</span>   
+                  </center>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-4 col-6 p-0">
+                <div class="col-sm-12 col-12 collections bg-white p-4" style="min-height:200px; ">
+                  <center>
+                    <img src="." class="img-fluid" style="max-height:120px;"><br>Router<br>
+                    <span>4 Product's</span>   
+                  </center>
+                </div>
+              </div>
+        </div>
+    </div>
+  </div>        
+          <br><br>
+
+    <nav class="navbar navbar-light m-0">
+      <div class="container">
+        <a class="navbar-brand"><ins>MOBILE PHONE</ins></a>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Mobile Phone Search" aria-label="Search">
+          <button  class="btn btn-primary">view</button>
+        </form>
+      </div>
+    </nav><br>
+          
+<div class="container">
+  <div class="row">
+    <div class="col-2">
+      <center>
+        <img src="img/1.jpg" class="img-fluid">
+      </center>
+      <div class="text-center">
+         Samsung Galaxy M32<br>
+        <span>TK. 22,999.00</span>
+      </div>
+    </div>
+    <div class="col-2">
+      <center>
+              <img src="img/2.jpg" class="img-fluid">
+      </center>
+      <div class="text-center">
+        Oppo A54 [6/128] GB<br>
+        <span>TK. 18,990.00</span>
+      </div>
+    </div>
+    <div class="col-2">
+      <center>
+              <img src="img/3.jpg" class="img-fluid">
+      </center>
+      <div class="text-center">
+              Motorola Moto G60 [6<br>
+              <span>TK. 28,999.00</span>
+      </div>
+    </div>
+    <div class="col-2">
+      <center>
+              <img src="img/4.jpg" class="img-fluid">
+      </center>
+      <div class="text-center">
+             Tecno Camon 17 [6/12<br>
+              <span>TK. 16,990.00</span>
+      </div>
+    </div>
+    <div class="col-2">
+      <center>
+              <img src="img/5.jpg" class="img-fluid">
+      </center>
+      <div class="text-center">
+              Tecno Spark Go 2022<br>
+              <span>TK. 9,990.00</span>
+      </div>
+    </div>
+    <div class="col-2">
+      <center>
+              <img src="img/6.jpg" class="img-fluid">
+      </center>
+      <div class="text-center">
+             Xiaomi 11 Lite 5G NE<br>
+              <span>TK. 45,999.00</span>
+      </div>
+    </div>
+  </div>
+</div>            
+                            <br>
+
+<nav class="navbar navbar-light">
+  <div class="container">
+    <a class="navbar-brand"><ins>SMART WATCH</ins></a>
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Smart Watch Search" aria-label="Search">
+      <button  class="btn btn-primary">view</button>
+    </form>
+  </div>
+</nav>
+          <br>
+  
+
+<div class="container-fulid">
+  <div class="row justify-content-center">
+      <div class="col-3" style="height: 60px; width: 200px; font-size: 12px;">
+        <div class="card">
+          <img src="img/11.jpg" class="img-fluid" alt="#">
+          <div class="card-body">
+            <p class="text-center">Wearfit Pro HW22 <br>
+            <small><del>TK. 2,850.00</del></small><br>
+            <span><b>TK. 2,565.00</b></span></p>
+          </div>
+        </div>
+      </div>  
+      <div class="col-3" style="height: 60px; width: 200px; font-size: 12px;">
+        <div class="card">
+          <img src="img/12.jpg" class="img-fluid" alt="#">
+          <div class="card-body">
+            <p class="text-center">Wearfit Pro HW22 <br>
+            <small><del>TK. 2,850.00</del></small><br>
+            <span><b>TK. 2,565.00</b></span></p>
+          </div>
+        </div>
+      </div>  
+      <div class="col-3" style="height: 60px; width: 200px; font-size: 12px;">
+        <div class="card">
+          <img src="img/13.jpg" class="img-fluid" alt="#">
+          <div class="card-body">
+            <p class="text-center">Wearfit Pro HW22 <br>
+            <small><del>TK. 2,850.00</del></small><br>
+            <span><b>TK. 2,565.00</b></span></p>
+          </div>
+        </div>
+      </div>  
+      <div class="col-3" style="height: 60px; width: 200px; font-size: 12px;">
+        <div class="card">
+            <img src="img/14.jpeg" class="img-fluid" alt="#">
+          <div class="card-body">
+            <p class="text-center">Wearfit Pro HW22 <br>
+            <small><del>TK. 2,850.00</del></small><br>
+            <span><b>TK. 2,565.00</b></span></p>
+          </div>
+        </div>
+      </div>  
+      <div class="col-3" style="height: 60px; width: 200px; font-size: 12px;">
+        <div class="card">
+            <img src="img/15.jpg" class="img-fluid" alt="#">
+          <div class="card-body">
+            <p class="text-center">Wearfit Pro HW22 <br>
+            <small><del>TK. 2,850.00</del></small><br>
+            <span><b>TK. 2,565.00</b></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3" style="height: 60px; width: 200px; font-size: 12px;">
+          <div class="card">
+              <img src="img/16.jpeg" class="img-fluid" alt="#">
+            <div class="card-body">
+              <p class="text-center">Wearfit Pro HW22 <br>
+              <small><del>TK. 2,850.00</del></small><br>
+              <span><b>TK. 2,565.00</b></span></p>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>                  
+                                          <br><br><br><br><b><br><br><br><br><br><br><b><br><br>
+
+
+<nav class="navbar navbar-light">
+  <div class="container">
+    <a class="navbar-brand"><ins>COMPUTER ACC</ins>ESSORIES</a> 
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Computer Accessories Search" aria-label="Search">
+      <button  class="btn btn-primary">view</button>
+    </form>
+  </div>
+</nav>
+                <br>
+
+<div class="container-fulid">
+  <div class="row justify-content-center">
+    <div class="col-3" style="height:50px; width: 200px;">
+      <div class="card">
+        <img src="img/21.jpg" class="img-fluid" alt="#">
+        <div class="card-body">
+          <p class="text-center" style="font-size: 12px;">Tenda AC10 AC1200 12<br>
+            <span>TK. 3,400.00</span></p>
+        </div>
+      </div>
+    </div>
+     <div class="col-3" style="height: 50px; width: 200px;">
+      <div class="card">
+      <img src="img/22.jpg" class="img-fluid" alt="#">
+     <div class="card-body">
+          <p class="text-center" style="font-size: 12px;">Tenda AC10 AC1200 12<br>
+            <span>TK. 3,400.00</span></p>
+        </div>
+      </div>
+   </div>
+     <div class="col-3" style="height: 50px; width: 200px;">
+      <div class="card">
+      <img src="img/23.jpg" class="img-fluid" alt="#">
+     <div class="card-body">
+          <p class="text-center" style="font-size: 12px;">Tenda AC10 AC1200 12<br>
+            <span>TK. 3,400.00</span></p>
+        </div>
+      </div>
+   </div>
+       <div class="col-3" style="height: 50px; width: 200px;">
+      <div class="card">
+      <img src="img/24.jpg" class="img-fluid" alt="#">
+     <div class="card-body">
+          <p class="text-center" style="font-size: 12px;">Tenda AC10 AC1200 12<br>
+            <span>TK. 3,400.00</span></p>
+        </div>
+      </div>
+   </div>
+       <div class="col-3" style="height: 60px; width: 200px;">
+      <div class="card">
+      <img src="img/25.jpg" class="img-fluid" alt="#">
+     <div class="card-body">
+          <p class="text-center" style="font-size: 12px;">Tenda AC10 AC1200 12<br>
+            <span>TK. 3,400.00</span></p>
+        </div>
+      </div>
+   </div>
+       <div class="col-3" style="height: 50px; width: 200px;">
+      <div class="card">
+      <img src="img/26.jpg" class="img-fluid" alt="#">
+     <div class="card-body">
+          <p class="text-center" style="font-size: 12px;">Tenda AC10 AC1200 12<br>
+            <span>TK. 3,400.00</span></p>
+        </div>
+      </div>
+     </div>
+   </div>
+ </div>       
+                            <br><br><br><br><br><b><br><br><br><br><br>    
+
+<nav class="navbar navbar-light">
+  <div class="container">
+    <a class="navbar-brand"><ins>WATCHES</ins></a> 
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Watches Search" aria-label="Search">
+      <button  class="btn btn-primary">view</button>
+    </form>
+  </div>
+</nav>
+              <br>
+
+ <div class="container-fulid">
+  <div class="row justify-content-center">
+<div class="col-3" style="height: 30px; width: 200px;">
+    <div class="card">
+        <img src="img/31.jpeg" class="img-fluid" alt="#">
+      <div class="card-body">
+          <p class="text-center" style="font-size: 12px;">Fashion Men Watch Bi<br>
+            <span>TK. 1,850.00</span></p>
+    </div>
+      </div>
+</div>
+    <div class="col-3" style="height: 30px; width: 200px;">
+      <div class="card">
+           <img src="img/32.jpeg" class="img-fluid" alt="#">
+        <div class="card-body">
+          <p class="text-center" style="font-size: 12px;">Fashion Men Watch Bi<br>
+          <span>TK. 1,850.00</span></p>
+        </div>
+      </div>
+     </div>
+          <div class="col-3" style="height: 30px; width: 200px;">
+      <div class="card">
+      <img src="img/33.jpg" class="img-fluid" alt="#">
+     <div class="card-body">
+          <p class="text-center" style="font-size: 12px;">Fashion Men Watch Bi<br>
+            <span>TK. 1,850.00</span></p>
+        </div>
+      </div>
+     </div>
+          <div class="col-3" style="height: 30px; width: 200px;">
+      <div class="card">
+      <img src="img/34.jpg" class="img-fluid" alt="#">
+     <div class="card-body">
+          <p class="text-center" style="font-size: 12px;">OLEVS Brand Premium<br>
+            <span>TK. 3,400.00</span></p>
+        </div>
+      </div>
+     </div>
+          <div class="col-3" style="height: 30px; width: 200px;">
+      <div class="card">
+      <img src="img/35.jpeg" class="img-fluid" alt="#">
+     <div class="card-body">
+          <p class="text-center" style="font-size: 12px;">OLEVS Brand Premium<br>
+            <span>TK. 2,550.00</span></p>
+        </div>
+      </div>
+     </div>
+          <div class="col-3" style="height: 30px; width: 200px;">
+      <div class="card">
+      <img src="img/36.jpeg" class="img-fluid" alt="#">
+     <div class="card-body">
+          <p class="text-center" style="font-size: 12px;">OLEVS 5885 Luxury Qu<br>
+            <span>TK. 2,490.00</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>                             <br>   <br> <br><br><br><br><b><br><br></br>         <br>
+
+
+      <div class="container">
+        <a class="navbar-brand" style="color: rgb(5,0,5);"><ins>SHOP BY BRAN</ins>DS</a>
+      </div>
+
+<div class="conteainer">
+  <div class="row justify-content-center" style="padding: 1px;">
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/101.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/102.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/103.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/104.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/105.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/106.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/107.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/108.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/109.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/110.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/111.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/112.jpg" class="card-img-top" alt="...">
+    </div>
+  </div>
+</div>
+    <div class="conteainer">
+  <div class="row justify-content-center" style="padding: 1px;">
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/201.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/202.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/203.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/204.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/205.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/206.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/207.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/208.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/209.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/210.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/211.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/212.jpg" class="card-img-top" alt="...">
+    </div>
+  </div>
+</div> 
+    <div class="conteainer">
+  <div class="row justify-content-center" style="padding: 1px;">
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+   <img src="img/301.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/302.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/303.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/304.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/305.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/306.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/307.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/308.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+   <img src="img/309.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/310.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+    <img src="img/311.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card" style="width: 6rem; height: 4rem; padding: 6px">
+  <button style="background-color:brown;">View <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+    </div>
+  </div>
+</div> 
+                                    <br><br><br><br>
+
+<div class="container-fulid">
+   <div class="uptofooter">
+      <div class="row">
+        <div class="card" style="width: 19rem;">
+          <div class="card-body" style="margin-left: 100px; margin-top: 10px; font-size: 15px;">
+            <p><small>Express Shipping</small></p>
+            <i class="fas fa-truck"></i>
+            <p style=" font-size: 12px;">
+            <small>Fast reliable delivery</small></p>
+          </div>
+        </div>
+      <div class="card" style="width: 13rem;">
+          <div class="card-body" style="margin-top: 10px; font-size: 15px;">
+            <p><small>Support 24/7</small></p>
+            <i class="fas fa-phone"></i>
+            <p style="color:rgb(85, 99, 99);font-size: 12px;">
+            <small>Support 24/7</small></p>
+          </div>
+      </div>
+      <div class="card" style="width: 13rem;">
+          <div class="card-body" style=" margin-top: 10px; font-size: 15px;">
+            <p><small>Affordable Prices</small></p>
+            <i class="fas fa-cart-plus"></i>
+            <p style="color:rgb(85, 99, 99);font-size: 12px;">
+            <small>Product Prices for Max Savings</small></p>
+          </div>
+      </div>
+      <div class="card" style="width: 13rem;">
+          <div class="card-body" style=" margin-top: 10px; font-size: 15px;">
+            <p><small>Secure Payment</small></p>
+            <i class="fas fa-credit-card"></i>
+            <p style="color:rgb(85, 99, 99); font-size: 12px;">
+            <small>100% Secure Payment</small></p>
+          </div>
+      </div>
+      <div class="card" style="width: 13rem;">
+          <div class="card-body" style=" margin-top: 10px; font-size: 15px;">
+            <p><small>Surprise Gifts</small></p>
+            <i class="fas fa-gift"></i>
+            <p style="color:rgb(85, 99, 99); font-size: 12px;">
+            <small>Refer a Friend</small></p>
+          </div>
+      </div>
+      <div class="card" style="width: 14rem;">
+          <div class="card-body" style=" margin-top:10px; margin-right:0px; font-size: 15px;">
+            <p><small>Cash on Delivery</small></p>
+            <i class="fas fa-rocket"></i>
+            <p style="color:rgb(85, 99, 99); font-size: 12px;">
+            <small>Dedicated Support</small></p>
+          </div>
+      </div>
+    </div>
+   </div>
+</div>
+
+                                          
+  <div class="row">
+    <div  class="footer" class="container-fulid">
+        <div>
+          <img class="footerimg" src="img/footer logo.png" alt="#">    
+            <ul style="list-style: none; color: lightgray;">
+              <li style="color:#ffa500;">ADDRESS:</li>
+              <li>FLOOR# 5, HOUSE# 95, ROAD 9/A,</li>
+              <li>DHANMONDI,DHAKA- 1209.</li>
+              <li style="color:#ffa500;">E-MAIL:</li>
+              <li>SUPPORT@BUYNFEEL.COM</li>
+              <li style="color:#ffa500;">CONTACT NO:</li>
+              <li>+09642887766</li>
+            </ul>
+        </div>
+        <div>
+          <ul style="color: #d3d3d3; list-style: none; padding-top: 30px;">
+            <h5 style="font-family: sans-serif;-serif; color:white;"><strong>Manu</strong></h5>
+            <li>About us</li>
+            <li>Career</li>
+            <li>FAQ</li>
+            <li>Purchasing Guide</li>
+            <li>Term & Condition</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+        <div>
+          <ul style="color:#d3d3d3; list-style: none; padding-top:30px;">
+            <h5 style="font-family: sans-serif;-serif; color: white;"><strong>Useful Link</strong></h5>
+            <li>Merchant Zone</li>
+            <li>Seller Zone</li>
+            <li>Cookie Policy</li>
+            <li>Purchasing Policy</li>
+            <li>Return Policy</li>
+            <li>Seller Policy</li>
+          </ul>
+        </div>
+        <div>
+          <ul style="color:#d3d3d3; list-style: none; padding-top:30px;">
+            <h5 style="font-family: sans-serif;-serif; color:white;">
+              <strong>Find Us</strong>
+            </h5>
+            <ul class="socialIcon">
+              <li> <i class="fab fa-facebook-square"></i> </li>
+              <li>  <i class="fab fa-twitter-square"></i> </li>
+              <li>   <i class="fab fa-instagram-square"></i></li>
+              <li> <i class="fab fa-youtube-square"></i> </li>
+            </ul>
+
+           
+           
+            
+          </ul>
+        </div>
+    </div>
+  </div>
+
+<div class="container-fulid">
+  <div  style="text-align: center; background-color:rgb(15, 15, 15);padding:30px; ">
+      <img src="img/F1.png" alt="#" style="width:1000px;">
+  </div>
+</div>
+
+
+<div class="container-fulid">
+  <div style="background-color:black; padding:8px; text-align:center;">
+    <p style="font-size:11px; color: white;">© Copyright 2021 buynfeel.com.All Right Reserved.</p>
+  </div>
+</div>
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		
+	</body>
+</html>

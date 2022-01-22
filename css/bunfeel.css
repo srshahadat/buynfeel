@@ -1,0 +1,155 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+	overflow-x: hidden;
+
+}
+a{
+	text-decoration: none;
+}
+.top-ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style: none;
+	border-color: *13187
+}
+.top-nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	list-style: none;
+	background-color: black;
+}
+.top-nav ul h1{
+	font-size: 14px;
+	color: white;
+	margin-top: 10px;
+}
+.top-nav ul a{
+	color: #fff !important;
+	text-decoration: none;
+}
+
+.brandImg{
+	height: 40px;
+	width: 120px;
+	margin-top: 25px;
+}
+.footerimg{
+	height: 58px;
+	width: 170px;
+	margin-top: 25px;
+	margin-left: 22px;
+}
+nav{
+	border-bottom: 1px solid grey;
+}
+li .bar, li .input{
+	margin-top: 25px;
+}
+li .contact{
+	margin-top: 10px;
+	padding: 0px;
+}
+.bar{
+	background: #f1f1f1; 
+	padding: 4px; 
+	border: 1px solid green; 
+	border-radius: 4px;
+}
+input{
+	border: 2px solid blue;
+	border-radius: 4px;
+	padding: 4px;
+}
+.input-group input, button{
+	box-shadow: none !important;
+}
+.footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color:rgb(15, 15, 15);
+	padding: 20px;
+	font-family: Times New Roman;
+}
+.header{
+	background-color:black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.top-nav-btn{
+	margin: 0px 10px;
+}
+.header h1{ 
+	padding:8px; 
+	color:#ffc107; 
+	font-size:13px;
+}
+.list-group{
+	border-radius: 0 !important;
+}
+.customDropDown{
+	position: relative;
+	display: inline-block;
+}
+.customDropDown .hover-content{
+	display: none;
+  	position:absolute;
+  	right: -248px;
+  	z-index: 1;
+  	width: 250px;
+  	/*position: relative;*/
+  	/*position: fixed;*/
+  	/*position: absolute;*/
+  	/*position: inherit;*/
+}
+.customDropDown:hover .hover-content{
+	display: block;
+}
+.loginForm input{
+	border-radius: 0 !important;
+}
+.registerForm input{
+		border-radius: 0 !important;
+}
+.registerForm input:focus{
+		border: 1px solid #cbf7e4;
+		box-shadow: none;
+}
+.boldBorder{
+	border-top: 1px solid grey;
+	position: relative;
+}
+#boldBorder2{
+	background-color: #000;
+	height: 3px;
+	width: 100px;
+	position: absolute;
+}
+.uptofooter{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-family: sans;
+}
+
+.socialIcon{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.socialIcon i{
+	list-style: none;
+	padding: 10px;
+	height: 80px;
+	width: 80px;
+	background-color: blue;
+	border-radius: 50%;
+	color: green;
+}
